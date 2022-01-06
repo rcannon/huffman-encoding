@@ -23,19 +23,3 @@ $ ./encoder file1.txt file2.txt file3.txt
 Using the decoder is similar.
 
 
-Part 4 - Table of Results
-
-  File Name      | Size Before compression  | Size After Compression | Decomp and Raw Match (y/n) 
-
-hitchhikers.txt  | 1461 bytes               | 1007 bytes             | Yes 
-
-README_hw7.txt   | 1587 bytes               | 1067 bytes             | Yes
-
-README_hw6.txt   | 2302 bytes               | 1451 bytes             | Yes
-
-README_hw5.txt   | 2070 bytes               | 1549 bytes             | Yes
-
-tale_of_two_cities-full.txt | 786,023 bytes | 445,718 bytes          | Yes :)
-
-
-
