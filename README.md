@@ -6,7 +6,7 @@ Convert text files into Huffman-coded binaries.
 
 The central program for this assignment is the Huffman class. This class stores a Huffman tree that it computes, as well as a frequency table for all of the ascii symbols that it has seen in the file so far. I chose to store the huffman tree as a shared pointer to a const tree for easy clean up and assurance that no changes would be made. I chose to the the frequency table as an array of integers, as recommended. 
 
-The Huffman class contains two public methods, encode() and decode(). It is intended that each instance of a huffman tree serves does exacly on of these. the encode() function returns a vector of bits for a given symbol (int). The vecotr of bits represents the path to the node with that symbol current huffman tree. The decode() method does the opposite, it takes a bit as input and returns the symbol that is reach by going left (0) or right (1) from the current node in the tree. 
+The Huffman class contains two public methods, encode() and decode(). It is intended that each instance of a huffman tree serves does exacly on of these. the encode() function returns a vector of bits for a given symbol (int). The vector of bits represents the path to the node with that symbol current huffman tree. The decode() method does the opposite, it takes a bit as input and returns the symbol that is reach by going left (0) or right (1) from the current node in the tree. 
 
 ## BitIO
 
